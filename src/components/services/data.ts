@@ -128,35 +128,36 @@ export const SERVICES_CATEGORIES: ServiceCategory[] = [
       },
     ],
   },
-  {
-    id: 'agenciamiento',
-    tabLabel: 'Agenciamiento y Operaciones Portuarias',
-    title: 'Agenciamiento y Operaciones Portuarias',
-    subtitle:
-      'Protegemos sus intereses comerciales y legales en el puerto, garantizando que su carga se manipule con los más altos estándares.',
-    icon: 'building',
-    items: [
-      {
-        title: 'Supervisión de Estiba y Desestiba',
-        desc: 'Control físico y operativo en el muelle para optimizar los ritmos de carga y descarga del buque.',
-        bullets: ['Supervisión profesional en sitio', 'Control de tiempos y productividad', 'Prevención de daños y mermas'],
-        icon: 'clipboard',
-        image: '/service_supervision_stowage_unstowage.png',
-      },
-      {
-        title: 'Inspecciones y Peritajes',
-        desc: 'Certificación del estado, peso y calidad de la mercancía antes del embarque y al momento del desembarque.',
-        bullets: ['Inspección de carga y contenedores', 'Verificación de pesos y medidas', 'Informes y certificaciones oficiales'],
-        icon: 'search',
-        image: '/service_inspections_expert_assessments.png',
-      },
-      {
-        title: 'Gestión de Terminales y Ventanas de Atraque',
-        desc: 'Coordinación directa con las autoridades portuarias para agilizar las operaciones y evitar costosas demoras.',
-        bullets: ['Programación de atraques', 'Coordinación con autoridades', 'Gestión documental y permisos'],
-        icon: 'building',
-        image: '/service_terminal_management.png',
-      },
-    ],
-  },
+  // Hidden: not part of the approved content — see conversation with client.
+  // {
+  //   id: 'agenciamiento',
+  //   tabLabel: 'Agenciamiento y Operaciones Portuarias',
+  //   title: 'Agenciamiento y Operaciones Portuarias',
+  //   subtitle:
+  //     'Protegemos sus intereses comerciales y legales en el puerto, garantizando que su carga se manipule con los más altos estándares.',
+  //   icon: 'building',
+  //   items: [
+  //     {
+  //       title: 'Supervisión de Estiba y Desestiba',
+  //       desc: 'Control físico y operativo en el muelle para optimizar los ritmos de carga y descarga del buque.',
+  //       bullets: ['Supervisión profesional en sitio', 'Control de tiempos y productividad', 'Prevención de daños y mermas'],
+  //       icon: 'clipboard',
+  //       image: '/service_supervision_stowage_unstowage.png',
+  //     },
+  //     {
+  //       title: 'Inspecciones y Peritajes',
+  //       desc: 'Certificación del estado, peso y calidad de la mercancía antes del embarque y al momento del desembarque.',
+  //       bullets: ['Inspección de carga y contenedores', 'Verificación de pesos y medidas', 'Informes y certificaciones oficiales'],
+  //       icon: 'search',
+  //       image: '/service_inspections_expert_assessments.png',
+  //     },
+  //     {
+  //       title: 'Gestión de Terminales y Ventanas de Atraque',
+  //       desc: 'Coordinación directa con las autoridades portuarias para agilizar las operaciones y evitar costosas demoras.',
+  //       bullets: ['Programación de atraques', 'Coordinación con autoridades', 'Gestión documental y permisos'],
+  //       icon: 'building',
+  //       image: '/service_terminal_management.png',
+  //     },
+  //   ],
+  // },
 ];

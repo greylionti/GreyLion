@@ -1,4 +1,4 @@
-import { Anchor, Compass, Flag, Briefcase, Cog, LucideIcon } from 'lucide-react';
+import { Anchor, Compass, Briefcase, Cog, TrendingUp, LucideIcon } from 'lucide-react';
 import { PAGE_SECTIONS } from '../pageSections';
 
 export interface NavItem {
@@ -11,9 +11,9 @@ export interface NavItem {
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Principal', path: '/', icon: Anchor },
   { label: 'Misión / Visión', path: '/#mision-vision', icon: Compass },
-  { label: 'Objetivos', path: '/#objetivos', icon: Flag },
   { label: 'Servicios', path: '/#servicios', icon: Briefcase },
   { label: 'Maquinaria', path: '/#maquinaria', icon: Cog },
+  { label: 'Inversión', path: '/#oportunidad-inversion', icon: TrendingUp },
 ];
 
 // Full section list for the mobile menu — mirrors every section the desktop

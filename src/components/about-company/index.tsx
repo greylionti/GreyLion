@@ -2,7 +2,7 @@
 
 import React from 'react';
 import MissionVisionSection from './MissionVisionSection';
-import ObjectivesSection from './ObjectivesSection';
+// import ObjectivesSection from './ObjectivesSection'; // Hidden: not part of the approved content — see conversation with client.
 import WhyChooseSection from './WhyChooseSection';
 
 export default function AboutCompany() {
@@ -16,7 +16,7 @@ export default function AboutCompany() {
 
       <div className="w-full max-w-[1280px] mx-auto px-5 relative z-10">
         <MissionVisionSection />
-        <ObjectivesSection />
+        {/* <ObjectivesSection /> */}
       </div>
 
       <WhyChooseSection whatsappUrl={whatsappUrl} />

@@ -11,6 +11,7 @@ import Comparison from "@/components/comparison";
 import MachineryCatalog from "@/components/machinery";
 import Testimonials from "@/components/testimonials";
 import FAQ from "@/components/faq";
+import Investment from "@/components/investment";
 import CTA from "@/components/CTA";
 import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
@@ -30,6 +31,7 @@ export default function Home() {
       <Comparison />
       <MachineryCatalog />
       <Testimonials />
+      <Investment />
       <FAQ />
       <CTA />
       <Footer />
