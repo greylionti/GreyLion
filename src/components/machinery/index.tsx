@@ -10,7 +10,7 @@ import DynamicMedia from '../dynamic-media';
 
 export default function MachineryCatalog() {
   const [activeTab, setActiveTab] = useState('excavacion');
-  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573000000000';
+  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573042477777';
 
   const activeCategory = CATEGORIES.find((cat) => cat.id === activeTab) || CATEGORIES[0];
 

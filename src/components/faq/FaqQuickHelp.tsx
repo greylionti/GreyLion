@@ -12,7 +12,7 @@ const ITEM_ICONS: Record<string, FaqIconName> = {
 };
 
 export default function FaqQuickHelp() {
-  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573000000000';
+  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573042477777';
 
   const resolveHref = (href: string) => {
     if (href === 'whatsapp:tracking') {

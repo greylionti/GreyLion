@@ -13,7 +13,7 @@ export default function Navbar() {
   const scrolled = useScrolled();
   const { isOpen: mobileMenuOpen, open: openMenu, close: closeMenu } = useMobileMenu();
 
-  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573001234567';
+  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573042477777';
   const quoteUrl = `https://wa.me/${phone}?text=${encodeURIComponent('Hola GreyLion, quiero cotizar un envío.')}`;
   const trackingUrl = `https://wa.me/${phone}?text=${encodeURIComponent('Hola GreyLion, quiero consultar el estado de mi envío.')}`;
 

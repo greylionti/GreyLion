@@ -7,7 +7,7 @@ import { SERVICES_CATEGORIES } from './data';
 
 export default function Services() {
   const [activeTab, setActiveTab] = useState('fletamento');
-  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573000000000';
+  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573042477777';
 
   const activeCategory = SERVICES_CATEGORIES.find((cat) => cat.id === activeTab) || SERVICES_CATEGORIES[0];
 

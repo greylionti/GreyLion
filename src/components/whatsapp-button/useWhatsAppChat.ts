@@ -7,7 +7,7 @@ export function useWhatsAppChat() {
   const [customMessage, setCustomMessage] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
   const sendLinkRef = useRef<HTMLAnchorElement>(null);
-  const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573001234567';
+  const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573042477777';
   const activeMessage = customMessage.trim() || selectedMessage;
   const whatsappUrl = activeMessage
     ? `https://wa.me/${phoneNumber}?text=${encodeURIComponent(activeMessage)}`

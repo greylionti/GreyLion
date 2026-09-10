@@ -95,7 +95,7 @@ export default function RootLayout({
 }>) {
   const contactPhone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE 
     ? `+${process.env.NEXT_PUBLIC_WHATSAPP_PHONE}` 
-    : '+573001234567';
+    : '+573042477777';
   const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@greylionmaritime.com';
 
   const schemaMarkup = {

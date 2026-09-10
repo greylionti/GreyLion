@@ -8,7 +8,7 @@ import { NAV_LINKS, OPERATIONS_LINKS } from './data';
 
 export default function Footer() {
   const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@greylionmaritime.com';
-  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573000000000';
+  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573042477777';
   const proposalUrl = `https://wa.me/${phone}?text=${encodeURIComponent('Hola GreyLion, quiero recibir una propuesta personalizada.')}`;
 
   return (

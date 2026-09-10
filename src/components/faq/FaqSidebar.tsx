@@ -3,7 +3,7 @@ import DynamicMedia from '../dynamic-media';
 import FaqIcon from './FaqIcon';
 
 export default function FaqSidebar() {
-  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573000000000';
+  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573042477777';
   const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@greylionmaritime.com';
   const contactUrl = `https://wa.me/${phone}?text=${encodeURIComponent('Hola GreyLion, tengo una pregunta que no encontré en las preguntas frecuentes.')}`;
 

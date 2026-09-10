@@ -8,7 +8,7 @@ import HeroPageMarker from './HeroPageMarker';
 import HeroStatsBar from './HeroStatsBar';
 
 export default function Hero() {
-  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573000000000';
+  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573042477777';
   const whatsappUrl = `https://wa.me/${phone}?text=Hola%20GreyLion,%20quiero%20cotizar%20el%20envio%20de%20`;
 
   return (

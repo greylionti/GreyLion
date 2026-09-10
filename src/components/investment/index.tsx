@@ -8,7 +8,7 @@ import InvestmentReasons from './InvestmentReasons';
 import InvestmentCTA from './InvestmentCTA';
 
 export default function Investment() {
-  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573000000000';
+  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573042477777';
   const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@greylionmaritime.com';
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent('Hola GreyLion, quiero más información sobre la oportunidad de inversión en fletamento marítimo.')}`;
 

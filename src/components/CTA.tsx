@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 import DynamicMedia from './dynamic-media';
 
 export default function CTA() {
-  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573000000000';
+  const phone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '573042477777';
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent('Hola GreyLion, quiero una cotización personalizada para mover mi carga.')}`;
 
   return (
